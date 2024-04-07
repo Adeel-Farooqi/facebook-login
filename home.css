@@ -104,7 +104,7 @@ body {
 
 
 .center-bar {
-   
+   width: 40%;
 }
 .adeel-status {
     width: 80px;
@@ -129,11 +129,68 @@ body {
     
 }
 
+.post-bar {
+    width: 100%;
+    height: 200px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.post-bar-div {
+     display: flex;
+     column-gap: 10px;
+     padding-left: 25px;
+     padding-top: 20px;
+     color: rgba(0, 0, 0, 0.7);
+}
+
+.post-bar-div img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.post-bar-div p {
+    font-size: 14px;
+}
+.post-bar-div span {
+     font-size: 12px;
+}
+.black-alpha {
+    color: rgba(0, 0, 0, 0.7);
+
+}
+.post-bar input {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    margin-top: 5px;
+    margin-left: 50px;
+    width: 80%;
+    height: 50px;
+}
+.post-bar ::placeholder {
+    font-size: 13px;
+}
 
 
-
-
-
+.post-bar-section {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+    /* padding-left: 60px; */
+}
+.post-bar-section a {
+    text-decoration: none;
+    display: flex;
+    gap: 10px;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 12px;
+}
+.post-bar-section img {
+    width: 20px;
+    height: 20px;
+    /* margin-left: 30px; */
+}
 @media screen and (max-width: 480px) {
    
     .header {
@@ -185,6 +242,8 @@ body {
         right: 150px;
 
     }
+
+    
 
   }
 
